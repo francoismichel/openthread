@@ -33,7 +33,7 @@
 
 #include "otns.hpp"
 
-#if (OPENTHREAD_MTD || OPENTHREAD_FTD || OPENTHREAD_RADIO) && OPENTHREAD_CONFIG_OTNS_ENABLE
+#if OPENTHREAD_CONFIG_OTNS_ENABLE
 
 #include "instance/instance.hpp"
 
@@ -200,4 +200,4 @@ exit:
 } // namespace Utils
 } // namespace ot
 
-#endif // (OPENTHREAD_MTD || OPENTHREAD_FTD || OPENTHREAD_RADIO) && OPENTHREAD_CONFIG_OTNS_ENABLE
+#endif

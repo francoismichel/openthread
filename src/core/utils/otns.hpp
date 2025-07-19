@@ -36,7 +36,7 @@
 
 #include "openthread-core-config.h"
 
-#if (OPENTHREAD_MTD || OPENTHREAD_FTD || OPENTHREAD_RADIO) && OPENTHREAD_CONFIG_OTNS_ENABLE
+#if OPENTHREAD_CONFIG_OTNS_ENABLE
 
 #include <openthread/thread.h>
 #include <openthread/thread_ftd.h>
@@ -175,6 +175,6 @@ private:
 } // namespace Utils
 } // namespace ot
 
-#endif // (OPENTHREAD_MTD || OPENTHREAD_FTD || OPENTHREAD_RADIO) && OPENTHREAD_CONFIG_OTNS_ENABLE
+#endif // OPENTHREAD_CONFIG_OTNS_ENABLE
 
 #endif // UTILS_OTNS_HPP_
