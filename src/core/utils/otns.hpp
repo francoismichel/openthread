@@ -64,7 +64,7 @@ class Otns : public InstanceLocator, private NonCopyable
 {
 #if OPENTHREAD_MTD || OPENTHREAD_FTD
     friend class ot::Notifier;
-#endif // OPENTHREAD_MTD || OPENTHREAD_FTD
+#endif
 
 public:
     /**
